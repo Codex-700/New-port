@@ -49,6 +49,7 @@ h1{
     font-size: 55px;
     margin: -2px;
     letter-spacing: -2px;
+    display: block;
 } 
 
 .build {
@@ -79,7 +80,7 @@ span {
 
 .header {
     padding: 2px;
-    display: inline-block;
+    display: block;
 }
 
 @keyframes grow{
@@ -100,6 +101,8 @@ span {
 
 #follow {
     display: inline;
+    font-weight: 500;
+    font-size: 19px;
 }
 
 
@@ -207,4 +210,32 @@ button img:hover {
     background-color: #673b3b;
     font-size: 18px;
     transition: background-color 0.3s ease-in-out;
+}
+
+.container {
+     display: inline-block;
+}
+
+.text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: poppins, sans-serif;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(15), cursor .5s step-end infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
 }
