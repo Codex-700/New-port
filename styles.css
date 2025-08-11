@@ -411,3 +411,11 @@ button img:hover {
 
     
 }
+
+.stack p{
+    font-family: poppins, sans-serif;
+    color: #422e2e;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
