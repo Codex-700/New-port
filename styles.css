@@ -14,32 +14,6 @@ body {
     
 } 
 
-/* .navigate ul{ 
-    list-style-type: none;
-    overflow: hidden;
-    text-align: right;
-    background: rgb(66, 46, 46);
-    
-}
-
-.navigate li {
-    float: right;
-    color: #fefefe;
-    background: rgb(66, 46, 46);
-    padding: 8px;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: poppins, sans-serif;
-    border: 2px solid;
-    border-radius: 20px;
-    
-}
-
-.navigate a{
-    text-decoration: none;
-    color: #fefefe;
-    font-family: poppins, sans-serif;
-} */
 
  .navigate ul{
     list-style-type: none;
@@ -114,7 +88,7 @@ h3 {
     display: block;
 }
 
-span {
+.pan {
     font-family: poppins, sans-serif;
     color: #422e2e;
     font-size: 55px;
@@ -418,4 +392,111 @@ button img:hover {
     font-size: 20px;
     font-weight: 600;
     margin-top: 5px;
+}
+
+.service {
+    margin-top: 5vw;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    margin-left: -1px;
+}
+    
+
+.service div {
+    width: 30vw;
+    height: 60vh;
+    color: white;
+    background-color: #422e2e;
+    box-shadow: -24px -28px 10px 4px rgb(63, 40, 28);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fc h1 {
+    color: #f3f3f3;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+    text-align: center;
+}
+
+.fc p {
+    margin-top: 3vw;
+}
+
+.Tc h1 {
+    color: #f3f3f3;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+    text-align: center;
+}
+
+.Tc p {
+    margin-top: 3vw;
+}
+
+.Sc h1{
+    color: #f3f3f3;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+    text-align: center;
+}
+
+.Sc p{
+    margin-top: 3vw;
+}
+
+.services {
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.services p{
+    font-family: poppins, sans-serif;
+    color: #422e2e;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.services p .sp {
+    color: #673b3b;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+}
+
+.sp {
+    color: #673b3b;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: poppins, sans-serif;
+}
+
+.fr {
+    color: #7a3e3e;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    /* text-align: center; */
+}
+
+.fade {
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear {
+    from {
+         opacity:0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
